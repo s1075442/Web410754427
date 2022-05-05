@@ -23,6 +23,8 @@ namespace Web410754427.Controllers
         }
         public ActionResult HW3()
         {
+            ViewBag.Leonard = 100;
+            ViewData["ken"] = "200";
             return View();
         }
     }
