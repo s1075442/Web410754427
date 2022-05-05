@@ -13,6 +13,32 @@
         <li>aaa</li>
         <li>bbb</li>
         <li>已經成為了我生活的一部分</li>
-           
+
     </ul>
 </ol>
+
+@{
+    var amount = 100;
+    bool isValid = true;
+}
+
+@DateTime.Now
+
+<div>
+    @amount
+</div>
+
+@if (isValid)
+{
+<p>isValid:@isValid</p>
+}
+
+@for (int i = 1; i <= 10; i++)
+{
+    <p>@i</p>
+}
+<p>
+    3+5=@(3+5)
+</p>
+
+
